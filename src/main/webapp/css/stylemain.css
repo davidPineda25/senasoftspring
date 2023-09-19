@@ -1,0 +1,261 @@
+html,
+:root,
+*,
+*:before,
+*:after {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+}
+
+
+body{
+	width: 100vw;
+	height: 100vh;
+	overflow-x: hidden;
+	background-color: rgba(35, 35, 35, 1);
+}
+
+.root{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.headerContainer{
+	width: 90%;
+	z-index: 10;
+	position: fixed;
+	padding-top: 5rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
+.section1 {
+	height: 100%;
+	width: 100%;
+	background: url(../public/seccionOne.jpg) fixed;
+	background-size: cover;
+	background-repeat: no-repeat;
+	display: flex;
+	flex-direction: column;
+	flex-grow: 1;
+	position: relative;
+	color: white 
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, .75);
+}
+
+.info-content {
+	display: flex;
+	width: 100%;
+	height: 100%;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	z-index: 8;
+	gap: 1rem;
+}
+
+.info-content h1 {
+	font-size: 60px;
+	font-weight: 900;
+}
+
+.info-content h1 span {
+	background:  linear-gradient(60deg, #00ec96, #edf497);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.info-content .p-info {
+	width: 50%;
+	text-align: center;
+	font-weight: 600;
+	font-size: 17px;
+}
+
+.info-content .p-info span {
+	color: #00ec96;
+}
+
+.sectionMin {
+	display: flex;
+	width: 100%;
+	height: 80%;
+	background-color: rgba(0, 0, 0, 1);
+	color: white;
+	justify-content: center;
+	align-items: center;
+	margin-top: 0.6rem;
+}
+
+.container-seccion {
+	width: 90%;
+	height: 100%;
+	display: flex;
+}
+
+.container-seccion .left {
+	width: 40%;
+	height: 100%;
+	display:  flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.container-seccion .right {
+	width: 60%;
+	height: 100%;
+	display:  flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 1rem;
+	padding: 0 3rem 0 3rem;
+}
+
+.container-seccion .right h1 {
+	width: 100%;
+	font-size: 45px;
+	font-weight: 800;
+}
+
+.container-seccion .right h1 span {
+	background:  linear-gradient(60deg, #00ec96, #edf497);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.container-seccion .right p {
+	width: 100%;
+	font-weight: 600;
+	font-size: 17px;
+	
+}
+
+.container-seccion .right .vinetas {
+	padding-left: 1rem;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	color: white;
+	font-weight: 500;
+	font-size: 17px;
+}
+
+.container-seccion .right .vinetas span::before {
+	content: "\2713";
+    color: #00ec96;
+    margin-right: 0.5rem;
+}
+
+
+.container-seccion .right .btn-seccion {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-top: 4rem;
+	
+}
+
+
+.container-seccion-right {
+	width: 90%;
+	height: 100%;
+	display: flex;
+}
+
+.container-seccion-right .left-right {
+	width: 60%;
+	height: 100%;
+	display:  flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 1rem;
+	padding: 0 3rem 0 3rem;
+}
+
+.container-seccion-right .right-right {	
+	width: 40%;
+	height: 100%;
+	display:  flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.container-seccion-right .left-right h1 {
+	width: 100%;
+	font-size: 45px;
+	font-weight: 800;
+}
+
+.container-seccion-right .left-right h1 span {
+	background:  linear-gradient(60deg, #00ec96, #edf497);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.container-seccion-right .left-right p {
+	width: 100%;
+	font-weight: 600;
+	font-size: 17px;
+	
+}
+
+.container-seccion-right .left-right .vinetas-right {
+	padding-left: 1rem;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	color: white;
+	font-weight: 500;
+	font-size: 17px;
+}
+
+.container-seccion-right .left-right .vinetas-right span::before {
+	content: "\2713";
+    color: #00ec96;
+    margin-right: 0.5rem;
+}
+
+
+.container-seccion-right .left-right .btn-seccion-right {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-top: 4rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
